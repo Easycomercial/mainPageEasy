@@ -1,0 +1,25 @@
+#logo{
+    width: 125px;
+}
+
+#MiniContacto{
+    background-color: rgb(47, 89, 143);
+    color: white;
+    text-align: right;
+    padding: 10px 30px;
+}
+
+#SeparacionNav{
+    padding: 20px;
+}
+
+.CarouselCustomCaption {
+    position: absolute;
+    right: 50%;
+    bottom: 200px;
+    left: 10%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: black;
+    text-align: left;
+  }
