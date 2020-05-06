@@ -23,3 +23,28 @@
     color: black;
     text-align: left;
   }
+  .CarouselCustomCaption1 {
+
+    position: absolute;
+    right: 60%;
+  }
+  .CarouselCustomCaption2 {
+    position: absolute;
+    
+    right: 15%;
+  }
+  #correr{
+    
+    position: absolute;
+    right: 10%;
+  }
+  .CarouselCustomCaption3 {
+
+    position: absolute;
+    right: 60%;
+  }
+  #correr3{
+    
+    position: absolute;
+    right: 10%;
+  }
