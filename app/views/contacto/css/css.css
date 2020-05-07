@@ -2,6 +2,22 @@
     width: 125px;
 }
 
+.portada{
+  background-image: url('../img/Easysystems-portada-principal-2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vmax;
+  
+}
+
+.fondo{
+  background-image: url('../img/fondo-2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vw;
+  text-align: center;
+}
+
 #MiniContacto{
     background-color: rgb(47, 89, 143);
     color: white;
@@ -13,26 +29,29 @@
     padding: 20px;
 }
 
-.CarouselCustomCaption {
-    position: absolute;
-    right: 50%;
-    bottom: 200px;
-    left: 10%;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    color: black;
-    text-align: left;
-  }
-  .CarouselCustomCaption1 {
+#seccion{
+  margin: 10px 0px;
+}
 
-    position: absolute;
-    right: 60%;
-  }
-  .CarouselCustomCaption2 {
-    position: absolute;
-    
-    right: 15%;
-  }
+#SeparacionNav{
+    padding: 20px;
+}
+
+#portada h1{
+  font-size: 2vw;
+}
+
+#portada h4{
+  font-size: 4vw;
+}
+
+#responsive h1{
+  font-size: 3vw;
+}
+#responsive p{
+  font-size: 2vw;
+}
+
   #correr{
     
     position: absolute;
