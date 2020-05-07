@@ -48,3 +48,93 @@
     position: absolute;
     right: 10%;
   }
+  #correr4{
+    
+    position: absolute;
+    right: 40%;
+  }
+  
+  .card1{
+    position: absolute;
+    right: 73%;
+  }
+  .card2{
+    position: absolute;
+    right: 50%;
+  }
+  .card3{
+    position: absolute;
+    right: 27%;
+  }
+  .card4{
+    position: absolute;
+    right: 4%;
+  }
+  #cardd1{
+    text-align: center;
+    background-color: #095589;
+    color: white;
+    border-radius: 5px;
+    
+  }
+  #cardd2{
+    text-align: center;
+    background-color: #095589;
+    color: white;
+    border-radius: 5px;
+    
+  }
+  #cardd3{
+    text-align: center;
+    background-color: #098789;
+    color: white;
+    border-radius: 5px;
+    
+  }
+  #cardd4{
+    text-align: center;
+    background-color: #095589;
+    color: white;
+    border-radius: 5px;
+    
+  }
+  .card-body{
+    text-align: center;
+  }
+  .btn_1{
+    color: white;
+background-color: #095589;
+border-radius: 30px;
+border-width: 1px;
+padding: 5px 10px;
+
+  }
+  .btn_3{
+    color: white;
+background-color: #098789;
+border-radius: 30px;
+border-width: 1px;
+padding: 5px 10px;
+
+  }
+  .card-body{
+    background-color: whitesmoke;
+    border-radius: 5px;
+  }
+  #uf1{
+    position: absolute;
+    right: 59%;
+  }
+  #uf2{
+    position: absolute;
+    right: 58%;
+  }
+  #uf3{
+    position: absolute;
+    right: 59%;
+  }
+  #uf4{
+    position: absolute;
+    right: 59%;
+  }
+
