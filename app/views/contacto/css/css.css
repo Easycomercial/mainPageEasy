@@ -135,4 +135,20 @@ html{
     position: absolute;
     right: 60%;
   }
+  #footercentro{
+    text-align: center;
+  }
+  #footerderecha{
+   text-align: right;
+ }
+ #logofoo{
+   width: 90px;
+   margin: -5px 90px;
+   
+ }
+ .page-footer{
+   background-color: #e3e4e5;
+   
+ }
+ 
 
