@@ -63,45 +63,20 @@ html{
 
 #formulario h1{
   font-size: 45px;
-}
 
-  #correr{
-    
-    position: absolute;
-    right: 10%;
   }
   .CarouselCustomCaption3 {
 
     position: absolute;
     right: 60%;
   }
-  #correr3{
-    
-    position: absolute;
-    right: 10%;
-  }
+  
   #correr4{
     
-    position: absolute;
+    text-align: center;
     right: 40%;
   }
   
-  .card1{
-    position: absolute;
-    right: 73%;
-  }
-  .card2{
-    position: absolute;
-    right: 50%;
-  }
-  .card3{
-    position: absolute;
-    right: 27%;
-  }
-  .card4{
-    position: absolute;
-    right: 4%;
-  }
   #cardd1{
     text-align: center;
     background-color: #095589;
