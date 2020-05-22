@@ -10,14 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2020_05_22_153759) do
 
-  create_table "CONTABILIDAD", id: :integer, default: nil, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1", force: :cascade do |t|
-    t.date "fecha", null: false
-    t.string "nombre", limit: 80, null: false
-    t.string "correo", limit: 80, null: false
-    t.integer "telefono", null: false
-    t.text "dudas", null: false
+  create_table "contactos", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "datos", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+    t.date "fecha"
+    t.string "nombre"
+    t.string "email"
+    t.integer "telefono"
+    t.text "dudas"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
 end
