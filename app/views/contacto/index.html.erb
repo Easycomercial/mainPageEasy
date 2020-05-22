@@ -268,17 +268,17 @@
           <p>Contáctate con nosotros mediante el siguiente formulario y nos comunicaremos contigo lo antes posible.</p>
         </div>
         <div class="col-md-6">
+          <%= form_with scope: :datos, local: true do |form| %>
           <form action="#" class="col justify-content-center">
-		<%= form_with scope: :datos, local: true do |form| %>
             <div class="row form-group">
-             <%= form.text_field :nombre, placeholder:"¿Cuál es tu nombre?", class:"form-control" %>
+             <%= form.text_field :name, placeholder:"¿Cuál es tu nombre?", class:"form-control" %>
             </div>
             <div class="row form-group">
              <%= form.text_field :email, placeholder:"Correo Electronico", class:"form-control col-6" %>
-             <%= form.text_field :telefono, placeholder:"Teléfono", class:"form-control col-6" %>
+             <%= form.text_field :phone, placeholder:"Teléfono", class:"form-control col-6" %>
             </div>
             <div class="row form-group">
-             <%= form.text_field :dudas, placeholder:"¿Tienes alguna duda?", class:"form-control" %>
+             <%= form.text_field :description, placeholder:"¿Tienes alguna duda?", class:"form-control" %>
             </div>
             <div class="row justify-content-center">
             <%= form.submit "Enviar", class:"btn btn-primary col-12" %>
