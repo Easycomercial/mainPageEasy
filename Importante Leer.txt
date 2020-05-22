@@ -1,4 +1,0 @@
-Escribo esta nota para dar a conocer esta informacion:
-
-He creado una nueva vista y he cambiado momentaneamente el archivo index.html.erb quitando el .erb para trabajar en la pagina web
-Una vez terminada, se devolverá a la extension original (index.html.erb) y las imagenes junto con el css seran trasladadas a la carpeta public
